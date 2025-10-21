@@ -1,4 +1,4 @@
-# sdk_sample_plugin
+# SAMPLE SDK 
 
 A new Flutter plugin project.
 
