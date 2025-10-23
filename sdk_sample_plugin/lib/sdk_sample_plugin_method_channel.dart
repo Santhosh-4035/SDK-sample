@@ -21,4 +21,9 @@ class MethodChannelSdkSamplePlugin extends SdkSamplePluginPlatform {
       'icon': icon,
     });
   }
+  
+  @override
+  Future<void> handleNotification(Map<String, dynamic> data) async {
+    await methodChannel.invokeMethod('handleNotification', data);
+  }
 }
