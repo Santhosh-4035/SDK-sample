@@ -31,4 +31,8 @@ abstract class SdkSamplePluginPlatform extends PlatformInterface {
     Map<String, dynamic> body,
     String notificationIcon,
   );
+
+  Future<void> handleNotification(Map<String, dynamic> data) {
+    throw UnimplementedError('handleNotification() has not been implemented.');
+  }
 }
